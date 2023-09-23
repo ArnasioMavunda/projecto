@@ -1,0 +1,40 @@
+section {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(232, 228, 219);
+    
+    
+        text-align: center; /* Centraliza o texto dentro da seção */
+        display: flex;
+        justify-content: center; /* Centraliza os elementos filhos (como a tabela) horizontalmente */
+        
+}
+
+.cor {
+    color: rgb(150, 150, 219);
+}
+.cor_v {
+    color: red;
+}
+
+table {
+    border-collapse: collapse;
+    
+    
+}
+.vermelho {
+    color: red;
+}
+.centro {
+    margin: 0 ;
+}
+
+caption {
+    font-size: 1.3em;
+}
+
+th, td {
+    border: 1px solid gray;
+    padding: 10px;
+    font-weight: bold;
+    padding: 10px;
+}

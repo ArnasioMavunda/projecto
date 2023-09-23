@@ -1,28 +1,100 @@
 <!DOCTYPE html>
-<html lang="Pt'Br">
+<html lang="Pt-Br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>COLÉGIO-CEFAC</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
 
-    <header>
+    <header class="container">
         <img  src="insignia cefac.jpg" alt="">
-        <nav>
+        <nav class="Menu">
             <ul>
                 <li> <a href="index.html" target="_self">Home</a> </li>
-                <li> <a href="index.html" target="_self">Nóticias</a></li>
-                <li> <a href="index.html">Ver Notas</a></li>
-                <li> <a href="index.html">Entrar</a> </li>
+                <li> <a href="Noticias.html" target="_self">Nóticias</a></li>
+                <li> <a href="Notas.html">Ver Notas</a></li>
+                <li> <a href="Cadastro.html"> <button class="casa">Entrar</button></a> </li>
+                
             </ul>
         </nav>
     </header>
 
-    <section>
-        <h1>Cefac-Mutumbo</h1>
-        <p>A escolha Perfeita Para Si </p>
+    <section class="conteudo">
+        <div id="slider">
+            <img class="selected " src="Cerimonia.jpg" alt="" width=>
+            <img  src="Finalista.jpg " alt="" >
+            <img src="pasgm.jpeg  " alt=""  >
+            <img src="beka.jpg  " alt=""  >
+            <img src="Cefac-Alunos.jpg  " alt="" >
+        </div>
+ 
     </section>
+    
+    <section >
+        <h1 class="centro">Bem-Vindo</h1>
+       <p> Bem vindo à página do Colégio CEFAC-MUTUMBO. Como deriva da nossa divisa, honor – labor – meritum, CEFAC-MUTUMBO não pretende ser apenas mais uma instituição de ensino técnico, mas uma realidade educativa distinta através da compatibilização e incorporação de três importantes valores : A cientificidade, o humanismo e a responsabilidade individual.</p>
+    </section>
+    
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <h1>Cefac Mutumbo</h1>
+                <p>A Melhor Escolha para si.</p>
+
+                <div id="footer_social_media">
+                    <a href="#" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="footer-link" id="whatsaap">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+
+            </div>
+            <ul class="footer-list">
+
+                <li> <h3>Escola</h3> </li>
+                <li> <a href="#" class="footer-link">Cefac</a> </li>
+                <li> <a href="#" class="footer-link">Mutumbo</a> </li>
+                <li> <a href="#" class="footer-link">Huambo</a> </li>
+
+            </ul>
+
+            <ul class="footer-list">
+
+                <li> <h3>Cursos</h3> </li>
+                <li> <a href="#" class="footer-link">Informatica</a> </li>
+                <li> <a href="#" class="footer-link">contabilidade</a> </li>
+                <li> <a href="#" class="footer-link">Enfermagem</a> </li>
+
+            </ul>
+            
+            <div id="footer_inscreva">
+                <h3>Inscreva-se</h3>
+                <p> O melhor colegio tecnico do Huambo </p>
+
+                <div id="input_group">
+                    <input type="email" id="email">
+                    <button>
+                        <i class="fa-regular fa-envelope"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="footer_copyright">
+            &#169
+            2023 all rights reservedes
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
     
     
 </body>
